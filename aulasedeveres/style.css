@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(21, 27, 21);
+    height: 8vh;
+    font-family: system-ui, -apple-system,'Helvetica Neue', Arial ,sans-serif;
+}
+main{
+    background: url(https://images.unsplash.com/photo-1726855500757-658894d298eb?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center;
+    background-size: cover;
+    height: 92vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+input, textarea, button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+input, textarea, button {
+    margin: 10px;
+    width: 90%;
+}
+fieldset{
+    background-color: rgb(21, 27, 21);
+    border: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    width:300px;
+    height:300px;
+}
+p, h3{
+    color: white;
+    text-align: center;
+}
